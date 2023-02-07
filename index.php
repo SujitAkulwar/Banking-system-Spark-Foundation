@@ -42,27 +42,33 @@
                 <div id="bigtext" >
                     Constomers
                 </div>
-                <button  onclick="accounts()">
-                    View customers
-                </button>
+                <a href="./accounts.php">
+                    <button  onclick="accounts()">
+                        View customers
+                    </button>
+                </a>
             </li>
             <li>
                 <img src="transafer.png" alt="">
                 <div id="bigtext">
                     Transfer Money
                 </div>
-                <button onclick="transfer()">
-                    Transfer
-                </button>
+                <a href="./transfer.php">
+                    <button>
+                        Transfer
+                    </button>
+                </a>
             </li>
             <li>
                 <img src="rupee.png" alt="">
                 <div id="bigtext">
                     Transactions
                 </div>
-                <button onclick="trasactions()">
-                    View transactions
-                </button>
+                <a href="./transaction.php">
+                    <button>
+                        View Transactions
+                    </button>
+                </a>
             </li>
         </ul>   
     </div>
