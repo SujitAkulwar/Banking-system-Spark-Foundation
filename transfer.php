@@ -62,11 +62,10 @@
                 echo " Successfully !!! ";
             } 
             // insert new transaction in transaction table
-            // $insert = 
         }else{
             echo "transaction failed !";
             // insert new transaction in transaction table
-            $insert = "INSERT INTO `transaction`(`name1`, `name2`, `money`, `state`) VALUES ('$name1','$name2',$amount,'true')";
+            $insert = "INSERT INTO `transaction`(`name1`, `name2`, `money`, `state`) VALUES ('$name1','$name2',$amount,'false')";
             if (mysqli_query($con, $insert)) {
                 echo " Error : Insuficient balance !!! ";
             } 
